@@ -14,10 +14,11 @@ git clone https://github.com/michaelpeterswa/valhalla.py.git
 ```
 Or download the file manually.
 
-## Compilation
+## Running the container
 
 ```
-python3.6 valhalla.py
+docker build valhalla
+docker run -d --restart=always valhalla
 ```
 ## Release History
 
@@ -25,6 +26,8 @@ python3.6 valhalla.py
     * Opened Repository (10.01.18)
 * 0.2
     * converted to discord.py ext commands (10.03.18)
+* 0.3
+    * dockerized (date unknown)
 
 ## Meta
 
